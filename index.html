@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Online Bookstore</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Online Bookstore</h1>
+    <button id="cart-btn">Cart (<span id="cart-count">0</span>)</button>
+  </header>
+  <main>
+    <section id="book-list"></section>
+  </main>
+  <aside id="cart-sidebar" class="hidden">
+    <h2>Your Cart</h2>
+    <button id="close-cart">Close</button>
+    <ul id="cart-items"></ul>
+    <div class="cart-total">Total: $<span id="cart-total">0.00</span></div>
+  </aside>
+  <script src="app.js"></script>
+</body>
+</html> 
